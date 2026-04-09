@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "momentum-combat",
+  "version": "1.0.0",
+  "name": "Momentum Combat",
+  "description": "Damage scales with player movement speed. Move fast, hit hard!",
+  "authors": ["ali77sina"],
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.orca.momentumcombat.MomentumCombat"]
+  },
+  "mixins": [
+    "momentum-combat.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
